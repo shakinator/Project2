@@ -1,0 +1,261 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+.navbar1 {
+  color: black;
+}
+
+/* Create a Parallax Effect */
+
+.bgimg-2,
+.bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.image {
+  width: 100%;
+  z-index: -1;
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  min-height: 400px;
+  border-radius: 0.5em;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("img/img3.jpg");
+  min-height: 400px;
+}
+.bg-img-4 {
+  background-image: url("https://www.holidify.com/images/bgImages/AYODHYA.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-img-5 {
+  background-image: url("https://cdn1.shadowsgalore.com/wp-content/uploads/2019/04/Benaras_2019_2-63-1024x640.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-6 {
+  background-image: url("https://www.themaharajaexpress.org/blog/wp-content/uploads/2018/03/Lucknow-City.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-7 {
+  background-image: url("https://wallup.net/wp-content/uploads/2016/05/13/344844-water-city-Varanasi.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.w3-wide {
+  letter-spacing: 10px;
+}
+.w3-hover-opacity {
+  cursor: pointer;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .image,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+
+.carousel {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+
+.accord {
+  background-color: #e7e5e5;
+  color: black;
+  height: 50px;
+}
+
+.text {
+  color: rgb(44, 42, 42);
+}
+
+.facts {
+  color: black;
+}
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+.text1 {
+  color: black;
+  margin-left: 15px;
+}
+.arrows {
+  border: 1px solid black;
+}
+.arrows:hover {
+  background-color: black;
+}
+
+.hightlight {
+  opacity: 10%;
+}
+
+.footerText {
+  color: black;
+}
+
+.Footer {
+  background-color: #777;
+  color: black;
+}
+.Place1Img:hover {
+  opacity: 0.5;
+}
+.Place1Img {
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-left: 24px;
+  min-height: auto;
+  min-width:auto;
+}
+
+.text1 {
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  height: fit-content;
+  margin-top: 55px;
+}
+
+.text2 {
+  margin-left: 36px;
+  font-size: medium;
+  color: black;
+  margin-right: 36px;
+}
+
+.Facts {
+  justify-content: center;
+}
+
+.heading {
+  margin-left: 30px;
+}
+
+/* Project Area */
+
+.site-main .project-area {
+  padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--roboto);
+  text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button {
+  padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .our-project .img a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* End Project Area */
+
+.imageGallery:hover {
+  opacity: 0.9;
+  border: 2px solid black;
+}
+
+.fewHighlights {
+  margin-left: 36px;
+  font-size: large;
+  font: bold;
+}
+
+.navs {
+  background-color: rgb(206, 202, 202);
+}
+
+.Htext {
+  color: black;
+}

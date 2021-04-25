@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<title>Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button navbar1">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small navbar1"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small navbar1"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#places" class="w3-bar-item w3-button w3-hide-small navbar1"><i class="fa fa-road"></i>PLACES</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-black navbar1">
+
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#gallery" class="w3-bar-item w3-button">GALLERY</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class=" w3-display-container" id="home">
+  <img class="image" src="img/vacation.jpg" alt="" />
+  <div class="w3-display-middle " style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-opacity-min w3-hover-opacity-off ">EVERYONE <span class="w3-hide-small">NEEDS </span> A VACATION </span>
+  </div>
+</div>
+
+<!-- carousel -->
+<div><br></div>
+<div class="container"> 
+    <div class="row row-content">
+        <div class="col">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox" >
+                    <div class="carousel-item active">
+                        <!-- The class d-block alows our image to be properly positioned-->
+                        <img class="image d-block img-fluid" src="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="text">Place 1  <span class="badge badge-pill badge-secondary">MUST VISIT</span></h2>  
+                            <p class="text">Here is the content for the first place to visit which i listed must visit  </p>
+                        </div>
+                    </div>  
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="hello text">SOMEONE</h2>
+                            <h4 class="helloo text">Cheif Executive Officer</h4>
+                            <p class="hellooo text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>  
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="text">SOMEONE </h2>
+                            <h4 class="text">SOME POSITION </h4>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>  
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active bg-primary"></li>
+                    <li data-target="#mycarousel" data-slide-to="1" class="bg-primary"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"class="bg-primary"></li>
+                </ol>
+          </div>
+        </div>
+    </div>
+</div>
+
+<!-- Container (About Section) -->
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <section id="about">
+    <h3 class="w3-center">ABOUT UTTAR PRADESH TOURISM </h3>
+    <p class="w3-center"><em>This is a test website</em></p>
+    <p>Uttar Pradesh is one of the largest states situated in northern part of India. In terms of population, Uttar Pradesh is one of the most populous states in the country. Under British Rule, the state was named as United province but after independence, the state was renamed as Uttar Pradesh. The state constitutes of 75 districts with Lucknow as a capital city. The state is drained by two major glacial rivers Ganga and Yamuna. Uttar Pradesh fondly termed as UP is surrounded by other Indian states like Haryana, Delhi, Himachal Pradesh and Rajasthan. By landmass, the state is fourth largest states in the country with 243,290 square kilometers.</p>
+  </section>
+  <section id="places">
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-road w3-margin-right"></i>Location 1</b></p><br>
+        <a href="./Place1.html"><img src="img/gettyimages-141763906-170667a.jpg" class="w3-round w3-image w3-hover-opacity" alt="Photo of Me" width="500" height="333"></a>
+      </div>
+  
+      <!-- Hide this text on small devices -->
+      <div class="text w3-col m5 w3-hide-small w3-padding-large">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, </p>
+      </div>
+    </div>
+    <br>
+    <div class="w3-row">
+      <!-- Hide this text on small devices -->
+      <div class="text w3-col m5 w3-hide-small w3-padding-large">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,</p>
+      </div>
+      
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-road w3-margin-right"></i>Location 2</b></p><br>
+        <a href="./Place2.html" ><img src="img/img7.jpg" class="w3-round w3-image w3-hover-opacity" alt="Photo of Me" width="500" height="333"></a>
+      </div>
+    </div>
+    <br>
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-road w3-margin-right"></i>Location 3</b></p><br>
+      <a href="./Place3.html" ><img src="img/img6.jpg" class="w3-round w3-image w3-hover-opacity" alt="Photo of Me" width="500" height="333"></a>
+    </div>
+  
+    <!-- Hide this text on small devices -->
+    <div class="text w3-col m5 w3-hide-small w3-padding-large">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,</p>
+    </div>
+    <br>
+    <div class="w3-row">
+          <!-- Hide this text on small devices -->
+      <div class="text w3-col m5 w3-hide-small w3-padding-large">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,</p>
+      </div>
+      
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-road w3-margin-right"></i>Location 4</b></p><br>
+        <a href="./Place4.html"><img href="./Place4.html" src="img/img3.jpg" class="w3-round w3-image w3-hover-opacity" alt="Photo of Me" width="500" height="333"></a>
+      </div>
+    </div>
+  </section>
+</div>
+
+<!--Accordian-->
+
+<p class="w3-wide fewHighlights"><i class="fa fa-star-o"></i>FEW HIGHLIGHTS</p>
+<button onclick="myFunction('Demo0')" class="accord w3-button w3-block  w3-left-align  w3-opacity-min">Example</button>
+<div id="Demo0" class="w3-hide w3-container w3-animate-opacity">
+    <p><button onclick="myFunction('Demo1')" class="accord w3-button w3-block  w3-left-align  w3-opacity-min w3-light-grey w3-border">Location:- 1</button>
+      <div id="Demo1" class="w3-hide w3-container w3-animate-opacity">
+          <p class="Htext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <button onclick="myFunction('Demo2')" class="accord w3-button w3-block  w3-left-align w3-opacity-min w3-light-grey w3-border">Location:- 2</button>
+      <div id="Demo2" class="w3-hide w3-container w3-animate-zoom">
+          <p class="Htext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>    
+      <button onclick="myFunction('Demo3')" class="accord w3-button w3-block  w3-left-align w3-opacity-min w3-border w3-light-grey">Location:- 3</button>
+      <div id="Demo3" class="w3-hide w3-container w3-animate-zoom">
+          <p class="Htext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>    
+      <button onclick="myFunction('Demo4')" class="accord w3-button w3-block  w3-left-align w3-opacity-min w3-light-grey w3-border">Location:- 4</button>
+      <div id="Demo4" class="w3-hide w3-container w3-animate-opacity">
+          <p class="Htext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>  </p>
+</div>
+
+
+
+<div class="facts w3-row w3-center w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">10+</span><br>
+    Facts
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Facts
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Facts
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">150+</span><br>
+    Facts
+  </div>
+</div>
+
+<br>
+
+
+<section id="contact">
+  <div class="bgimg-3 w3-display-container">
+    <div class="w3-display-middle">
+       
+    </div>
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+      <h3 class="w3-center footerText">WHERE I WORK</h3>
+      <p class="w3-center footerText"><em>I'd love your feedback!</em></p>
+    
+      <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+          <img src="img/img5.jpg" class="w3-image w3-round w3-opacity-min" style="width:100%">
+        </div>
+        <div class="w3-col m8 w3-panel">
+          <div class="w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right footerText"></i><i class="footerText">Delhi,India</i><br>
+            <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right footerText"></i> <i class="footerText">Phone:9990143958</i><br>
+            <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right footerText"></i> <i class="footerText">Email:saksahm12g@gmail.com</i><br>
+          </div>
+          <p class="footerText">Swing by for a cup of <i class="fa fa-coffee footerText"></i>, or leave me a note:</p>
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+              <div class="w3-half">
+                <input class="w3-input w3-border w3-opacity-min" type="text" placeholder="Name" required name="Name">
+              </div>
+              <div class="w3-half">
+                <input class="w3-input w3-border w3-opacity-min" type="text" placeholder="Email" required name="Email">
+              </div>
+            </div>
+            <input class="w3-input w3-border w3-opacity-min" type="text" placeholder="Message" required name="Message">
+            <button class="w3-button w3-black w3-right w3-section " type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="w3-center  w3-padding-64 w3-opacity Footer">
+  <a href="#home" class="w3-button w3-hover-black "><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+
+</footer>
+ 
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

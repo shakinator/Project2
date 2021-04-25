@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<title>Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css ">
+<link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+
+
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="./index.html" class="w3-bar-item w3-button navbar1">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small navbar1"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small navbar1"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#gallery" class="w3-bar-item w3-button w3-hide-small navbar1"><i class="fa fa-road"></i>GALLERY</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-black navbar1">
+
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#gallery" class="w3-bar-item w3-button">GALLERY</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class=" w3-display-container" id="home">
+  <img class="image" src="https://th.bing.com/th/id/Rbe5283969942a8a61d1276c72d986c78?rik=36hhQy%2bv9u2Hdg&riu=http%3a%2f%2ftrailtravelwilderness.com%2fwp-content%2fuploads%2f2016%2f04%2fIMG-20160430-WA0012.jpg&ehk=fkyypkCFsGNiVO3Mt6OSSfCtYVjSf8mrFm2Ub9Qe%2fJk%3d&risl=&pid=ImgRaw" alt="" />
+  <div class="w3-display-middle " style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-opacity-min w3-hover-opacity-off ">EVERYONE <span class="w3-hide-small">NEEDS </span> A VACATION </span>
+  </div>
+</div>
+
+<!-- carousel -->
+<div><br></div>
+<div class="container"> 
+    <div class="row row-content">
+        <div class="col">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner" role="listbox" >
+                    <div class="carousel-item active">
+                        <!-- The class d-block alows our image to be properly positioned-->
+                        <img class="image d-block img-fluid" src="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="text">Place 1  <span class="badge badge-pill badge-secondary">FACT ONE </span></h2>  
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
+                        </div>
+                    </div>  
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="" >
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="hello text">ANOTHER FACT </h2>
+                            <h4 class="helloo text">lOREM IPSUM</h4>
+                            <p class="hellooo text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>  
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid" src="">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2 class="text">FACT  </h2>
+                            <h4 class="text"> lorem ipsum </h4>
+                            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>  
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#mycarousel" data-slide-to="0" class="active bg-primary"></li>
+                    <li data-target="#mycarousel" data-slide-to="1" class="bg-primary"></li>
+                    <li data-target="#mycarousel" data-slide-to="2"class="bg-primary"></li>
+                </ol>
+          </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="col-md-12 container-fluid">
+    <section id="about">
+        <h3 class="w3-center">ABOUT LOCATION FOUR </h3>
+        <p class="w3-center"><em>This is a test website</em></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+            sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+    </section>
+    <div class="row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+            <br>
+            <a><img src="img/caraouselImg2.jpg" class="w3-round Place1Img w3-image" alt="Photo of Me" width="500" height="333"></a>
+          </div>
+      
+          <!-- Hide this text on small devices -->
+          <div class="text1 w3-col m5 w3-hide-small w3-padding-large">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="text2"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+               sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                 sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+          <div class="row row-content table Facts">
+            <div class="col-12 col-sm-9">
+                <h2>Facts &amp; figures</h2>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="navs">
+                            <tr>
+                                <th>&nbsp;</th>
+                                <th>2013</th>
+                                <th>2014</th>
+                                <th>2015</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>Tourists</th>
+                                <td>15</td>
+                                <td>30</td>
+                                <td>40</td>
+
+                            </tr>
+                            <tr>
+                                <th>Foreign Tourists</th>
+                                <td>15000</td>
+                                <td>45000</td>
+                                <td>100,000</td>
+                            </tr>
+                            <tr>
+                                <th>Special events</th>
+                                <td>3</td>
+                                <td>20</td>
+                                <td>45</td>
+                            </tr>
+                            <tr>
+                                <th>Average cost of a tour </th>
+                                <td>$200000</td>
+                                <td>$100000</td>
+                                <td>4000000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <div class="col-12 col-sm3"></div>
+          </div>
+        </div>
+    </div>
+</div>
+<div><h1 class="heading">Image Gallery</h1></div>
+<div class="w3-col w3-padding-large">
+    
+</div>
+
+<!--Photo Gallery -->
+<section class="project-area" id="gallery">
+    <div class="container">
+        <div class="row grid">
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/11/shutterstock_757481668.jpg">
+                            <img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/11/shutterstock_757481668.jpg" alt="portfolio-1" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location One</h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://th.bing.com/th/id/R4f21b67cbcee54116d35299febd2ccab?rik=uLlpiO5uS2CFTQ&riu=http%3a%2f%2fstatic.dnaindia.com%2fsites%2fdefault%2ffiles%2fstyles%2ffull%2fpublic%2f2018%2f03%2f19%2f662298-ayodhya.jpg&ehk=NQy%2bziqhWIZetbeI%2bdUZy%2fwc0hR0DQpwMnUTuibUEA8%3d&risl=&pid=ImgRaw">
+                            <img src="https://th.bing.com/th/id/R4f21b67cbcee54116d35299febd2ccab?rik=uLlpiO5uS2CFTQ&riu=http%3a%2f%2fstatic.dnaindia.com%2fsites%2fdefault%2ffiles%2fstyles%2ffull%2fpublic%2f2018%2f03%2f19%2f662298-ayodhya.jpg&ehk=NQy%2bziqhWIZetbeI%2bdUZy%2fwc0hR0DQpwMnUTuibUEA8%3d&risl=&pid=ImgRaw" alt="portfolio-2" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location two</h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/12/02/Pictures/religious-general-verdict-supreme-ayodhya-court-disputed_16812910-14e8-11ea-af95-104face44223.jpg">
+                            <img src="https://www.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/12/02/Pictures/religious-general-verdict-supreme-ayodhya-court-disputed_16812910-14e8-11ea-af95-104face44223.jpg" alt="portfolio-3" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location three</h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ruhi.jpg/1200px-Ruhi.jpg">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Ruhi.jpg/1200px-Ruhi.jpg" alt="portfolio-4" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location four</h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://3.bp.blogspot.com/-lvKZTbhPnBs/UJucRz2WHNI/AAAAAAAAB6Y/NQpdYs_CTN8/s1600/ayodhya+river+ghat.jpg">
+                            <img src="https://3.bp.blogspot.com/-lvKZTbhPnBs/UJucRz2WHNI/AAAAAAAAB6Y/NQpdYs_CTN8/s1600/ayodhya+river+ghat.jpg" alt="portfolio-5" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location five </h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://th.bing.com/th/id/OIP.GxeOXv-fQTfSrzZIZDvYOQHaFi?pid=ImgDet&rs=1">
+                            <img src="https://th.bing.com/th/id/OIP.GxeOXv-fQTfSrzZIZDvYOQHaFi?pid=ImgDet&rs=1" alt="portfolio-6" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location six</h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://th.bing.com/th/id/R382885a302ce37d1d3a3e251213cea55?rik=KLQijbg6ZigEVQ&riu=http%3a%2f%2fwww.bengalweekend.com%2fadmin%2fuploaded%2f1480512094Gozer_Ayodhya-Hills.jpg&ehk=gmeKwErOze%2bxrVrM7QwPqeqrvVwOrsZyoSakwEqq%2fyc%3d&risl=&pid=ImgRaw">
+                            <img src="https://th.bing.com/th/id/R382885a302ce37d1d3a3e251213cea55?rik=KLQijbg6ZigEVQ&riu=http%3a%2f%2fwww.bengalweekend.com%2fadmin%2fuploaded%2f1480512094Gozer_Ayodhya-Hills.jpg&ehk=gmeKwErOze%2bxrVrM7QwPqeqrvVwOrsZyoSakwEqq%2fyc%3d&risl=&pid=ImgRaw" alt="portfolio-7" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location six</h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://www.deccanherald.com/sites/dh/files/article_images/2019/10/21/ayodhya%201-1571639677.jpg">
+                            <img src="https://www.deccanherald.com/sites/dh/files/article_images/2019/10/21/ayodhya%201-1571639677.jpg" alt="portfolio-8" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location seven</h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+                <div class="our-project">
+                    <div class="img">
+                        <a class="test-popup-link" href="https://www.myindiamyglory.com/wp-content/uploads/2019/06/Ayodhya-3.jpg">
+                            <img src="https://www.myindiamyglory.com/wp-content/uploads/2019/06/Ayodhya-3.jpg" alt="portfolio-9" class="img-fluid imageGallery">
+                        </a>
+                    </div>
+                    <div class="title py-4">
+                        <h4 class="text-uppercase">Location eight</h4>
+                        <span class="text-secondary">Lorem ipsum</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Accordian-->
+
+<p class="w3-wide fewHighlights"><i class="fa fa-star-o"></i>FEW HIGHLIGHTS</p>
+<button onclick="myFunction('Demo0')" class="accord w3-button w3-block  w3-left-align  w3-opacity-min">Example</button>
+<div id="Demo0" class="w3-hide w3-container w3-animate-opacity">
+    <p><button onclick="myFunction('Demo1')" class="accord w3-button w3-block  w3-left-align  w3-opacity-min w3-light-grey w3-border">Location:- 1</button>
+      <div id="Demo1" class="w3-hide w3-container w3-animate-opacity">
+          <p class="Htext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <button onclick="myFunction('Demo2')" class="accord w3-button w3-block  w3-left-align w3-opacity-min w3-light-grey w3-border">Location:- 2</button>
+      <div id="Demo2" class="w3-hide w3-container w3-animate-zoom">
+          <p class="Htext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>    
+      <button onclick="myFunction('Demo3')" class="accord w3-button w3-block  w3-left-align w3-opacity-min w3-border w3-light-grey">Location:- 3</button>
+      <div id="Demo3" class="w3-hide w3-container w3-animate-zoom">
+          <p class="Htext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>    
+      <button onclick="myFunction('Demo4')" class="accord w3-button w3-block  w3-left-align w3-opacity-min w3-light-grey w3-border">Location:- 4</button>
+      <div id="Demo4" class="w3-hide w3-container w3-animate-opacity">
+          <p class="Htext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>  </p>
+</div>
+
+
+
+<div class="facts w3-row w3-center w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">10+</span><br>
+    Facts
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">55+</span><br>
+    Facts
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">89+</span><br>
+    Facts
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">150+</span><br>
+    Facts
+  </div>
+</div>
+
+<br>
+
+
+<div class="bg-img-6 w3-display-container">
+  <div class="w3-display-middle">
+     
+  </div>
+  <div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center footerText">WHERE I WORK</h3>
+    <p class="w3-center footerText"><em>I'd love your feedback!</em></p>
+  
+    <div class="w3-row w3-padding-32 w3-section">
+      <div class="w3-col m4 w3-container">
+        <img src="img/img5.jpg" class="w3-image w3-round w3-opacity-min" style="width:100%">
+      </div>
+      <div class="w3-col m8 w3-panel">
+        <div class="w3-large w3-margin-bottom">
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right footerText"></i><i class="footerText">Delhi,India</i><br>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right footerText"></i> <i class="footerText">Phone:9990143958</i><br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right footerText"></i> <i class="footerText">Email:saksahm12g@gmail.com</i><br>
+        </div>
+        <p class="footerText">Swing by for a cup of <i class="fa fa-coffee footerText"></i>, or leave me a note:</p>
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border w3-opacity-min" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border w3-opacity-min" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border w3-opacity-min" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-right w3-section " type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="w3-center  w3-padding-64 w3-opacity Footer">
+  <a href="#home" class="w3-button w3-hover-black "><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+
+</footer>
+ 
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
